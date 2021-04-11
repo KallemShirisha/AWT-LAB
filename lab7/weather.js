@@ -3,7 +3,7 @@ function display(){
     var request=new XMLHttpRequest();
     let city=document.getElementById("city").value
    var apikey='5efc2a270243044daa181e47bb804b95'
-   let url=`http://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${apikey}`
+   let url=`https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${apikey}`
      request.open('GET',url,true);
     request.send();
     request.onload=function(){
