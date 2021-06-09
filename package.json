@@ -1,0 +1,12 @@
+{
+  "name": "demoproject",
+  "version": "1.0.0",
+  "description": "express",
+  "main": "app.js",
+  "scripts": {},
+  "author": "cvr",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
